@@ -160,6 +160,8 @@ dc.loadMenuItems = function (categoryShort) {
   $ajaxUtils.sendGetRequest(
     menuItemsUrl + categoryShort + ".json",
     buildAndShowMenuItemsHTML);
+
+    
 };
 
 
